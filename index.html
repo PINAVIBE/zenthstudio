@@ -695,7 +695,7 @@ function openModal(idx) {
     const size = getSelectedSize(null);
     const color = getSelectedColor(null);
     const msg = encodeURIComponent(`Hola ZENTH, quiero pedir: *${p.name}* | Precio: ${p.price} | Color: ${color} | Talla: ${size} - Esta disponible?`);
-    window.open(`https://wa.me/$573209776284?text=${msg}`, '_blank');
+    window.open(`https://wa.me/573209776284?text=${msg}`, '_blank');
   };
   document.getElementById('modalOverlay').classList.add('open');
   document.body.style.overflow = 'hidden';
